@@ -1,0 +1,36 @@
+export const transactionList = [
+    {
+        id:1,
+        image:"http://funto.designing-world.com/img/bg-img/u4.jpg",
+        name:"Melaine Hobs",
+        quantity:"60 Items",
+        type: "Buy",
+        amount:"+548.00 ETH",
+        date: "June 5, 08:22 PM",
+    },
+    {
+        id:2,
+        image:"http://funto.designing-world.com/img/bg-img/u1.jpg",
+        name:"Tewar Manforac",
+        quantity:"30 Items",
+        type: "Buy",
+        amount:"+248.00 ETH",
+        date: "June 4, 12:34 PM",
+    },{
+        id:3,
+        image:"http://funto.designing-world.com/img/bg-img/u3.jpg",
+        name:"Renaixance Rising",
+        quantity:"78 Items",
+        type: "Buy",
+        amount:"+788.00 ETH",
+        date: "June 3, 02:22 PM",
+    },{
+        id:4,
+        image:"http://funto.designing-world.com/img/bg-img/u2.jpg",
+        name:"Realamno Tuoipla",
+        quantity:"62 Items",
+        type: "Buy",
+        amount:"+598.00 ETH",
+        date: "June 1, 08:42 AM",
+    },
+]

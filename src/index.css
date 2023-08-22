@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth-bg{
+    background-image: url("./assets/banner-bg.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #1d1933;
+    box-shadow: inset 0 0 5px #1d1933;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9740f3;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9740f3;
+    transition: 150ms;
+  }
+
+
+.nav .at{
+    border-left:2px solid #E039FD;
+    color: #E039FD;
+}
+.nav-btn{
+    @apply w-[40px] h-[40px] text-xl text-white bg-[#131129] rounded-full shadow flex items-center justify-center
+}
+.nav-dropdown{
+    @apply  flex items-center px-3 py-2 gap-3 cursor-pointer select-none text-white
+}
+.nav-dropdown:hover {
+    @apply text-purple
+}
+
+.navigation {
+    color: #00BAC7;
+}
+.footer-active{
+    @apply text-white bg-black
+}
+
+.category-bg{
+    background: linear-gradient(90deg, #312B51 17.88%, rgba(30, 32, 58, 0.86) 99.37%);
+  }
